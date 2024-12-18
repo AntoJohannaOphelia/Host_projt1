@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    -moz-user-select:none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+   
+}
+
+.m1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./header-image.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    padding: 10px 8%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar button {
+    border: 0;
+    outline: 0;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.sin {
+    background: #fff;
+    color: #000;
+}
+
+.sin:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+.d {
+    position: absolute;
+    background: url(lb.png.png);
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    top: 100px;
+    left: 60px;
+    text-align: left;
+    padding-top: 50px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.d img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+p {
+    width: 100%;
+    margin-left: 320px;
+}
+
+#btn {
+    margin-top: 570px;
+    margin-left: 300px;
+}
+
+#ig {
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+#ig:hover {
+    background-color: rgb(213, 19, 19);
+}
+
+#email {
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    padding-left: 15px;
+}
+
+#b, #c, #d {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+
+#b div, #c div, #d div {
+    width: 180px;
+    height: 260px;
+    background-color: #020202;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+#b img, #c img, #d img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+#d{
+    width: 100%;
+    height: 235px;
+    background-color:#090909;
+    display: flex;
+    align-items: top;
+    justify-content:space-between;
+    padding-top: 15px;
+   }
+
+#d div{
+    width: 280px;
+    height: 150px;
+    background-color: #4a4848;
+    color: black;
+    border-radius: 20px;
+}
+
+#b div:hover img, #c div:hover img, #d div:hover img {
+    transform: scale(1.2);
+}
+
+#e div {
+    width: 100%;
+    height: 70px;
+    background-color: #2b2a2a;
+    color: #fff;
+    border-radius: 13px;
+    margin-top: 9px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#e div:hover {
+    background-color: rgb(62, 59, 59);
+}
+
+h5 {
+    margin: 20px 20px;
+    font-size: medium;
+}
+
+#f {
+    width: 100%;
+    height: 300px;
+   
+}
+
+#fb {
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+
+#fb:hover {
+    background-color: rgb(170, 25, 25);
+}
+
+#g {
+    width: 100%;
+    height: 310px;
+    background-color: #080707;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+#g div {
+    width: 200px;
+    height: 260px;
+    background-color: #000;
+    color: darkgrey;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #d8d3d3;
+}
+
+#drop {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    width: 120px;
+    height: 32px;
+    padding-left: 12px;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: -150px;
+}
+
+h6 {
+    color: darkgrey;
+    margin-top: -50px;
+    font-size: 14px;
+}
+
+
+/* Default .d styling */
+.d {
+    position: absolute;
+    background: url('lb.png.png') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the area */
+    height: 500px;
+    width: 90%;
+    top: 100px;
+    left: 60px;
+    text-align: left;
+    padding-top: 50px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease; /* Smooth transition for resizing */
+}
+
+/* Media query for screens up to 768px (Tablets) */
+@media (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+   
+    #btn {
+        margin-top: 550px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+   
+    #email, #ig {
+        width: 80%; 
+    }
+
+   
+    #b div, #c div, #d div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px; 
+
+   
+    #b img, #c img, #d img {
+        width: 100%; 
+        height: auto; 
+    }
+
+   
+    #d {
+        margin-bottom: 30px; /* Reduce bottom margin for spacing */
+        position: relative; 
+        top: 0;
+        left: 0; 
+        height: 400px;
+        padding-top: 30px; 
+        border-radius: 15px; 
+    }
+
+    
+    #g div {
+        width: 100%;
+    }
+
+    
+    h6 {
+        font-size: 12px;
+    }
+}
+
+/* Further adjustments for smaller screens (Mobile) */
+@media (max-width: 500px) {
+    
+    .d {
+        height: 400px; 
+        top: 140px; 
+        left: 20px;
+        padding-top: 10px; 
+        border-radius: 10px; 
+        background: url(rs.png);
+        background-size: cover;
+    }
+
+    #btn {
+        margin-top: 450px;
+    }
+
+    #email, #ig {
+        width: 90%;
+    }
+
+    #b div, #c div, #d div {
+        margin-bottom: 10px;
+    }
+
+    h6 {
+        font-size: 10px; 
+}
+
+}
+
+}
